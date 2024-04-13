@@ -117,7 +117,8 @@ router bgp 130
  bgp router-id 10.3.3.3
  neighbor 209.165.202.130 remote-as 110
  neighbor 209.165.200.230 remote-as 120
-
+ network 209.165.201.5 mask 255.255.255.255
+ network 209.165.201.15 mask 255.255.255.255
 
 Task 2. Advertise R3’s Loopback 100 and Loopback 200 networks to AS110 and AS120.
 
